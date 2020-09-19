@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Data_Compression</string>
-    <string name="enter_integer_value_str_len"><![CDATA[Enter integer Value<Str.len]]></string>
-    <string name="enter_integer_value_sr_len"><![CDATA[Enter integer Value < Str.len]]></string>
-</resources>
