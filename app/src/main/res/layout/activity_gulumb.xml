@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/name"
+
+    android:scaleType="fitXY"
+    tools:context=".gulumb">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/l"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                android:text="Goulumb Coding"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="false"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="110dp"
+                android:text="Enter m Value "
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="241dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="false"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="140dp"
+                android:ems="10"
+                android:hint="Enter Integer Value"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="240dp"
+                android:text="Enter Run Value "
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/et2"
+                android:layout_width="249dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="280dp"
+                android:ems="10"
+                android:hint="Enter Integer Value"
+                android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/button_background"
+        android:text="Output" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="844dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="430dp"
+                android:hint="Output Table "
+                android:lineSpacingMultiplier="1.5"
+                android:padding="15dp"
+
+
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
